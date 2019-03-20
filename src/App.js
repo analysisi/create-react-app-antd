@@ -1,10 +1,9 @@
 import React from 'react';
 import CaseView from './plugins/sba/views/CaseView'
-import './App.css';
+import styles from './App.less';
 
 
 const App = () => (
-  <CaseView></CaseView>
+  <CaseView className={styles.AppLogo}></CaseView>
 );
-
 export default App;
