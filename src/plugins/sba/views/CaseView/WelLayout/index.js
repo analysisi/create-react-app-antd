@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout } from 'antd';
 import backgroud from '../../../images/u7.jpg';
 const {
-  Header, Footer,  Content,
+   Content,
 } = Layout;
 
 
@@ -13,11 +13,11 @@ class WeblLayout extends React.Component {
           } = this.props;
     return <Layout>
          <img src={backgroud} alt="backgroud" className='autoSize'/> 
-        <Header>Header</Header>
-            <Content>
+       
+            <Content className="contentCenter">
             {children}
             </Content>
-        <Footer>Footer</Footer>
+       
         </Layout>
     }
 };

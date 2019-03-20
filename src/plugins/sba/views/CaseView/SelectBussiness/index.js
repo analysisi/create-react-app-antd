@@ -21,9 +21,9 @@ class SelectBussiness extends React.Component {
       }
 
     render() {
-        return <Content> 
-         <div>test</div>
-        </Content>
+        return <div>test
+        <div>退出</div>
+        </div> ; 
     }
 };
 
